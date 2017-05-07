@@ -1,1 +1,13 @@
 .DS_Store
+
+# Ignore everything
+*
+# Don't ignore directories, so we can recurse into them
+!*/
+# Don't ignore .gitignore and *.foo files
+!.gitignore
+!*.go
+!*.s
+!*.c
+!*.h
+
