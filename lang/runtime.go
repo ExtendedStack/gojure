@@ -3,7 +3,7 @@ package lang
 import (
 	"reflect"
 
-	"github.com/tcard/gojure/persistent"
+	"github.com/ExtendedStack/gojure/persistent"
 )
 
 func GetImport(imp interface{}) interface{} {

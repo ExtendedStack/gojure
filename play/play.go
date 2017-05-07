@@ -6,7 +6,7 @@ import (
 
 	"go/printer"
 	"go/token"
-	"github.com/tcard/gojure/compiler"
+	"github.com/ExtendedStack/gojure/compiler"
 )
 
 func main() {

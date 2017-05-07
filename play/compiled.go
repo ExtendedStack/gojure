@@ -2,8 +2,8 @@ package main
 
 import (
 	reflect "reflect"
-	persistent "github.com/tcard/gojure/persistent"
-	lang "github.com/tcard/gojure/lang"
+	persistent "github.com/ExtendedStack/gojure/persistent"
+	lang "github.com/ExtendedStack/gojure/lang"
 	fmt "fmt"
 )
 

@@ -3,7 +3,7 @@ package lang
 import (
 	"fmt"
 
-	pers "github.com/tcard/gojure/persistent"
+	pers "github.com/ExtendedStack/gojure/persistent"
 )
 
 type Seq interface {

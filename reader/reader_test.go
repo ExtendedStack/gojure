@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/tcard/gojure/lang"
-	"github.com/tcard/gojure/persistent"
+	"github.com/ExtendedStack/gojure/lang"
+	"github.com/ExtendedStack/gojure/persistent"
 )
 
 func TestEmpty(t *testing.T) {

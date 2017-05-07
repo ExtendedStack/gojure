@@ -9,8 +9,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/tcard/gojure/lang"
-	"github.com/tcard/gojure/persistent"
+	"github.com/ExtendedStack/gojure/lang"
+	"github.com/ExtendedStack/gojure/persistent"
 )
 
 // Returns a GojureReader that reads text from source. If source is a bufio.Reader,
@@ -34,9 +34,9 @@ type GojureReader struct {
 }
 
 // Reads the next form and gives its reppresentation in core data structures.
-// Gojure lists will be github.com/tcard/gojure/persistent#List. Vectors will be
-// github.com/tcard/gojure/persistent#Vector. Symbols will be
-// github.com/tcard/gojure/lang#Symbol. Strings will be Go strings, and numbers
+// Gojure lists will be github.com/ExtendedStack/gojure/persistent#List. Vectors will be
+// github.com/ExtendedStack/gojure/persistent#Vector. Symbols will be
+// github.com/ExtendedStack/gojure/lang#Symbol. Strings will be Go strings, and numbers
 // will be Go ints.
 //
 // No support for maps, sets, keywords, numbers other than ints, etc. is provided

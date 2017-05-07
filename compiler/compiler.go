@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tcard/gojure/lang"
-	"github.com/tcard/gojure/persistent"
-	"github.com/tcard/gojure/reader"
+	"github.com/ExtendedStack/gojure/lang"
+	"github.com/ExtendedStack/gojure/persistent"
+	"github.com/ExtendedStack/gojure/reader"
 )
 
 // Compile Gojure source coe into a Go AST.
@@ -518,8 +518,8 @@ var Symbols = &SymExprsTable{
 	imports: map[string][]string{
 		"fmt":        []string{"fmt"},
 		"reflect":    []string{"reflect"},
-		"persistent": []string{"github.com/tcard/gojure/persistent"},
-		"lang":       []string{"github.com/tcard/gojure/lang"},
+		"persistent": []string{"github.com/ExtendedStack/gojure/persistent"},
+		"lang":       []string{"github.com/ExtendedStack/gojure/lang"},
 	},
 	m: map[string]ast.Expr{
 		"apply": func() ast.Expr {
